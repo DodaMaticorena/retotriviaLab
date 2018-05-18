@@ -4,6 +4,10 @@ var mostrarResultados = document.getElementById('contenedorPrincipal');
 var respuestasCorrectas = document.getElementById('respuestasCorrectas');
 var respuestasIncorrectas= document.getElementById('respuestasIncorrectas');
 
+function agradecimiento(){
+    alert ("¡Gracias por jugar!");
+}
+
 
 var nombreUsuario = prompt("Ingresa tu nombre:");
 saludarUsario.innerHTML = "😊 Bienvenid@ " + nombreUsuario + " 😊" ;
